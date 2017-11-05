@@ -24,4 +24,7 @@ pipeline {
       }
     }
   }
+  environment {
+    JAVA_HOME = '/products/jdk1.8.0_144'
+  }
 }
